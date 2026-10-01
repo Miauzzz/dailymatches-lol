@@ -1,0 +1,20 @@
+{
+  "name": "dailymatches-lol",
+  "version": "1.0.0",
+  "description": "Dailymatches LoL — Cloudflare Workers API",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.13.12",
+    "mongodb": "^7.7.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261001.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.145.0"
+  }
+}

@@ -1,0 +1,11 @@
+name = "dailymatches-lol"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Estas variables deben configurarse como secrets en producción:
+# wrangler secret put RIOT_API_KEY
+# wrangler secret put MONGO_URI
+# wrangler secret put MONGO_DB_NAME
+
